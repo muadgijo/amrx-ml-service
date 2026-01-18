@@ -1,0 +1,33 @@
+# Python virtual environments
+.venv/
+venv/
+amrx-env/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Package info
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
