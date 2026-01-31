@@ -90,7 +90,7 @@ def predict():
     """
     try:
         # Get client IP
-        ip = request.remote_addr
+        ip = request.remote_addr or "unknown"
         
         # Check rate limit
         if not check_rate_limit(ip):

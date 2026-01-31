@@ -123,9 +123,6 @@ See `antibiotic_map.csv` for complete list. Examples:
 ```bash
 # Run all tests
 pytest tests/ -v
-
-# Run with coverage
-pytest tests/ --cov=. --cov-report=term-missing
 ```
 
 ---
