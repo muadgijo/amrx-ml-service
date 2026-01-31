@@ -1,33 +1,38 @@
-# Python virtual environments
-.venv/
-venv/
-amrx-env/
-env/
-
-# Python cache
+# Python
 __pycache__/
 *.py[cod]
-*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
 *.so
-
-# IDEs
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Environment files
-.env
-.env.local
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Package info
+*.egg
 *.egg-info/
 dist/
 build/
+
+# Virtual environments
+venv/
+env/
+.venv/
+amrx-env/
+
+# Environment variables
+.env
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
 
 # Logs
 *.log
